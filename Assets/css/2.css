@@ -1,0 +1,128 @@
+body, html {
+    
+    font-family:"Noto Sans", sans-serif;
+    padding:0;
+    margin:0;
+    /* neutral background for secondary pages; header provides hero image on home page */
+    background-color: #fafafa;
+    color: #333;
+    background:url(Assets/services-bg.jpg)no-repeat;
+    background-size:contain;
+    background-attachment: fixed;
+
+
+}
+
+header {
+
+    display:flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    background-image: none;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 800px;
+
+
+}
+
+
+#text1 {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -600px;
+    padding: 10px;
+    opacity: 1;
+    width: 180px;
+    height: 50px;
+    text-align: center;
+    font-size: 15px;
+    position: relative;
+    top: -65px;
+    right: -700px;
+
+}
+
+
+#logo-img {
+    display: flex;
+    position: relative;
+    top: -300px;
+    width: 200px;
+}
+
+#logo {
+
+    display:flex;
+    flex-direction: row-reverse;
+    justify-content: end;
+    position: relative;
+    top: -120px;
+    left:340px;
+    transform: scale(0.8);
+}
+
+.learn1 {
+  
+   background-color: #FB2056;
+   border-top-left-radius: 30px;
+   border-bottom-left-radius: 30px;
+   border-top-right-radius:30px ;
+   border-bottom-right-radius: 30px;
+   border:none;
+   padding: 10px;
+   border-color: #FB2056;
+   font-weight:bolder;
+   -webkit-text-fill-color: rgb(255, 255, 255);
+   margin-left: 50px;
+   width: 150px;;
+
+
+}
+
+.infos {
+
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    margin-top: -600px;
+    padding: 10px;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    position: relative;
+    right:-740px;
+    font-weight:lighter;
+    top: -65px;
+
+
+}
+
+
+#learn-more:hover ,.learn1:hover {
+    background-color: #b41940;
+    transform: scale(1.05);
+
+}
+
+#serv {
+    color:white;
+    font-size:70px;
+    position:relative;
+    left:-55px;
+    top:-100px;
+}
+
+section {
+    background-image: none;
+    background-color:white;
+    align-items: center;
+    height:1000px;
+    position:relative;
+    top:-200px;
+    display:flex;
+    
+
+}
