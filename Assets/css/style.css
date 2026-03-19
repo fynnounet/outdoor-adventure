@@ -143,7 +143,7 @@ header {
 #cut {
     background-color: #e6e6e6;
     width: 100%;
-    height: 280px;
+    height: 180px;
     margin-top: -220px; /* pull it upward, collapsing space */
 }
 
