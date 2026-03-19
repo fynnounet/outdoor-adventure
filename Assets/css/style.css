@@ -10,12 +10,12 @@ body, html {
     background:url(/Assets/img/hero-bg.jpg)no-repeat;
     background-size: cover;
     background-attachment: fixed;
-
-
+    
+    
 }
 
 header {
-
+    
     display:flex;
     flex-direction: row;
     gap: 10px;
@@ -23,13 +23,30 @@ header {
     background-image: none;
     background-color: rgba(0, 0, 0, 0.5);
     height: 800px;
+    
+    
+}
+
+.infos {
+
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    margin-top: -600px;
+    padding: 10px;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    position: relative;
+    right:-750px;
+    font-weight:lighter;
+    top: -65px;
 
 
 }
 
-
 #text1 {
-
+    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -99,26 +116,20 @@ header {
 }
 
 #learn-more:hover ,.learn1:hover {
-
     background-color: #b41940;
     transform: scale(1.05);
-
-
 }
 
 
-
-
-
-#ex {
+#ex_1 {
     font-size:30px;
 }
 
-#jss {
+#hr_1 {
     width: 60px;
     height: 1px , solid;
-    color: #FB2056;
     margin-top: -20px;
+    color: #fe2058;
 }
 
 #gift{
@@ -126,7 +137,6 @@ header {
 }
 
 .mainimg {
-
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -137,10 +147,9 @@ header {
     font-size: 35px;
     background-image: none;
     background-color: rgba (0, 0, 0, 0.5);
-
 }
 
-#cut {
+#part_2 {
     background-color: #e6e6e6;
     width: 100%;
     height: 180px;
@@ -149,7 +158,7 @@ header {
 
 
 #quote {
-
+    
     display: flex;
     position: relative;
     right: -400px;
@@ -166,25 +175,98 @@ header {
     top: -45px;
     font-size:20px;
     font-weight:lighter;
+    
+}
+
+Events {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-image: none;
+    background-color:white;
 
 }
 
-.infos {
-
+#jsp {
+    transform: scale(0.7);
     display: flex;
-    justify-content: right;
-    align-items: right;
-    margin-top: -600px;
-    padding: 10px;
-    font-weight: bolder;
-    color: rgb(255, 255, 255);
-    text-decoration: none;
+    flex-direction: row;
     position: relative;
-    right:-750px;
-    font-weight:lighter;
-    top: -65px;
+    gap: 100px;
+    filter:sepia(20%);
+}
+#coupe {
 
+    position: relative;
+    height:8px solid;
+    width:90px;
+    color: #FB2056;
+}
 
+.event-img {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    box-shadow: #333 0px 4px 8px;
+    border-radius: 1%;
+}
+
+.event-img2 {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    box-shadow: #333 0px 4px 8px;
+    border-radius: 1%;
+}
+
+#camps {
+    position: relative;
+    top: -50px;
+    width:50%;
+    columns: 2;
+    text-align: center;
+    gap:30px;
+    padding-bottom:60px;
+}
+
+#btn1 {
+    position: relative;
+    left:-30px;
+    transform: scale(1.4)
+}
+
+#pic {
+    background:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("/Assets/img/section-bg-img.jpg");
+
+    background-size: cover;
+    height: 700px;
+    background-attachment: fixed;
+    
+    color:white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#explore{
+    background:white;
+    display:flex;
+    flex-direction: row;
+    padding-left: 40vh;
+    padding-right: 40vh;
+    padding-top: 15vh;
+    padding-bottom: 15vh;
+    gap:5vh;
+}
+
+.hjhj {
+    width: 40vh;
 }
 
 #contact1 {
@@ -288,94 +370,13 @@ header {
     justify-content: center;
 }
 
-
-
-Events {
-    display: flex;
-    flex-direction:column;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    background-image: none;
-    background-color:white;
-
-}
-
-.event-img {
-    display: flex;
-    flex-direction: row;
-    position: relative;
-     box-shadow: #333 0px 4px 8px;
-    border-radius: 1%;
-}
-
-.event-img2 {
-    display: flex;
-    flex-direction: row;
-    position: relative;
-    box-shadow: #333 0px 4px 8px;
-    border-radius: 1%;
-}
-
-
-
-#jsp {
-    transform: scale(0.7);
-    display: flex;
-    flex-direction: row;
-    position: relative;
-    gap: 100px;
-    filter:sepia(20%);
-}
-
-
-#coupe {
-
-    position: relative;
-    height:8px solid;
-    width:90px;
-    color: #FB2056;
-}
-
-#camps {
-
-    position: relative;
-    top: -50px;
-    width:50%;
-    columns: 2;
-    text-align: center;
-    gap:30px;
-    padding-bottom:60px;
-}
-
 #diag {
     position: relative;
     top: 15px;
 
 }
 
-#btn1 {
-    position: relative;
-    left:-30px;
-    transform: scale(1.4)
-}
 
-#pic {
-    background:
-    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("/Assets/img/section-bg-img.jpg");
-
-    background-size: cover;
-    height: 700px;
-    background-attachment: fixed;
-
-    color:white;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-
-}
 
 
 
@@ -420,9 +421,6 @@ footer {
 }
 
 
-.hjhj {
-    width: 40vh;
-}
 
 #dd {
     background-color:rgb(31, 31, 31);
@@ -471,13 +469,3 @@ footer {
     align-items: center;
 }
 
-#explore{
-    background:white;
-    display:flex;
-    flex-direction: row;
-    padding-left: 40vh;
-    padding-right: 40vh;
-    padding-top: 15vh;
-    padding-bottom: 15vh;
-    gap:5vh;
-}
