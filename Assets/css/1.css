@@ -6,7 +6,7 @@ body, html {
     /* neutral background for secondary pages; header provides hero image on home page */
     background-color: #fafafa;
     color: #333;
-    background:url(Assets/about-bg-5.jpg)no-repeat;
+    background:url(/Assets/img/about-bg-5.jpg)no-repeat;
     background-size:contain;
 
 
@@ -20,8 +20,6 @@ header {
     background-image: none;
     background-color: rgba(0, 0, 0, 0.5);
     height: 800px;
-
-
 }
 
 
@@ -46,20 +44,22 @@ header {
 #logo-img {
     display: flex;
     position: relative;
-    top: -300px;
-    width: 200px;
+    top: -30vh;
+    width: 20vh;
 }
 
+
 #logo {
+
     display:flex;
     flex-direction: row-reverse;
     justify-content: end;
     position: relative;
-    top: -120px;
-    left:340px;
+    top: -13vh;
+    left:40vh;
     transform: scale(0.8);
+    
 }
-
 .learn1 {
 
 
@@ -91,114 +91,15 @@ header {
 .infos {
 
     display: flex;
-    justify-content: right;
+    justify-content:flex-end;
     align-items: right;
-    margin-top: -600px;
     padding: 10px;
-    font-weight: bolder;
     color: rgb(255, 255, 255);
     text-decoration: none;
     position: relative;
-    right:-740px;
     font-weight:lighter;
-    top: -65px;
-
-
-}
-
-#intro {
-
-    display:flex;
-    justify-content: center;
-    align-items: center;    
-    color:white;
-    position: absolute;
-    top:22%;
-    left:40%;
-    font-size:xx-large;
+    top: -37vh;
+    left:75vh;
+    width:4%;
 
 }
-
-
-section {
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    background-image:none;
-    background-color:white;
-    height:900px;
-    position:relative;
-    top:-100px;
-    margin-bottom:-300px;
-
-}
-
-#water {
-    height:350px;
-    box-shadow: #6d6d6d 0px 4px 8px;
-    border-radius: 1%;
-    position: absolute;
-    top:10%;
-}
-
-.mission {
-    display:flex;
-    position:absolute;
-    left:20%;
-    top:10%;
-    font-size:25px;
-
-}
-
-.textt {
-    display:flex;
-    flex-direction: column;
-    position:relative;
-    left:-18.5%;
-    top:20%;
-    display:flex;
-    position:absolute;
-    left:20%;
-    top:10%;
-    font-size:25px;
-
-
-}
-
-#hrr {
-    height:20px solid;
-    width:45px;
-    color:#FB2056;
-    position:absolute;
-    top:175px;
-    left:20%;
-}
-
-.too {
-    position:absolute;
-    left:20%;
-    top:20%;
-}
-
-#cc {
-    position:relative;
-    top:-10px;
-}
-
-#black {
-    height:360px;
-    background-color:rgb(31, 31, 31);
-}
-
-.texte {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    position:relative;
-    top:550px;
-    gap:270px;
-    left:-190px;
-}
-
-
