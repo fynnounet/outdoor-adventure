@@ -8,7 +8,7 @@ body, html {
     margin:0;
     background-color: #fafafa;
     color: #333;
-    background:url(./Assets/img/hero-bg.jpg)no-repeat;
+    background:url(/Assets/img/hero-bg.jpg)no-repeat;
     background-size: cover;
     background-attachment: fixed;
 }
@@ -463,5 +463,8 @@ footer {
     display:flex;
     flex-wrap: wrap;
     align-items: center;
+}
+
+@media (max-width:460px) {
 }
 
