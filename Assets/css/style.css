@@ -8,7 +8,8 @@ body, html {
     margin:0;
     background-color: #fafafa;
     color: #333;
-    background:url(/Assets/img/hero-bg.jpg)no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(/Assets/img/hero-bg.jpg)no-repeat;
     background-size: cover;
     background-attachment: fixed;
 }
@@ -19,7 +20,6 @@ header {
     align-items: flex-start;
     justify-content: center;
     background-image: none;
-    background-color: rgba(0, 0, 0, 0.5);
     height: 51em;
     font-weight: 600;
     padding-top: 1rem;
@@ -465,6 +465,216 @@ footer {
     align-items: center;
 }
 
-@media (max-width:460px) {
-}
+@media (max-width: 460px) {
 
+  body, html {
+    font-size: 14px;
+    background-attachment: fixed;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  header {
+    flex-direction: row;
+    align-items: center;
+    height: auto;
+    padding: 1rem;
+  }
+
+  nav {
+    flex-direction: row;
+    align-items: center;
+    padding-left: 0;
+    gap: 1em;
+    width: 100%;
+  }
+
+  #logo {
+    flex-direction: row;
+    justify-content: center;
+    transform: scale(1);
+  }
+
+  #logo-img {
+    width: 30vw;
+  }
+
+  .mainimg {
+    top: 0;
+    font-size: 22px;
+    padding: 3rem;
+    text-align: center;
+  }
+
+  #text1 {
+    width: 100%;
+    font-size: 13px;
+  }
+
+  #learn-more {
+    top: 20px;
+    right: 0;
+    width: 130px;
+    height: 44px;
+  }
+
+  #part_2 {
+    height: auto;
+    margin-top: 0;
+    padding: 1rem;
+    text-align: center;
+  }
+
+  #quote {
+    right: 0;
+    bottom: 0;
+    position: relative;
+    width: 60px;
+    height: auto;
+  }
+
+  .text2 {
+    top: 0;
+    font-size: 15px;
+    text-align: center;
+    padding: 0 1rem;
+  }
+
+  #eventsUp {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  #events_img {
+    flex-direction: column;
+    align-items: center;
+    gap: 3vh;
+    transform: scale(1);
+  }
+
+  #camps {
+    width: 90%;
+    columns: 1;
+    top: 0;
+    padding-bottom: 30px;
+    text-align: center;
+  }
+
+  #btn1 {
+    left: 0;
+    transform: scale(1);
+  }
+
+  #pic {
+    height: auto;
+    background-attachment: scroll;
+    padding: 2rem 1rem;
+  }
+
+  #picIntern {
+    margin-left: 0;
+    padding-top: 5%;
+    padding-right: 0;
+    align-items: center;
+    text-align: center;
+  }
+
+  #explore {
+    flex-direction: row;
+    padding: 2rem 1rem;
+    gap: 2vh;
+  }
+
+  .hjhj {
+    width: 100%;
+  }
+
+  #btn_2 {
+    left: 0;
+    transform: scale(1);
+  }
+
+  #h2Tours {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  #rest {
+    flex-direction: row;
+    height: auto;
+    align-items: center;
+  }
+
+  #rest img {
+    width: 90vw;
+    margin: 8px 0;
+  }
+
+  #rest_1 {
+    flex-direction: row;
+    align-items: center;
+    margin: 0;
+    gap: 10px;
+  }
+
+  #pics {
+    justify-content: center;
+  }
+
+  #contact1 {
+    position: static;
+    width: 90%;
+    transform: scale(1);
+    margin: 0 auto;
+    row-gap: 20px;
+  }
+
+  #contact-info {
+    position: static;
+    right: 0;
+    top: 0;
+    text-align: center;
+  }
+
+  #talk {
+    font-size: 22px;
+    margin: 0;
+    left: 0;
+    text-align: center;
+  }
+
+  #contact2 {
+    position: static;
+    top: 0;
+    text-align: center;
+  }
+
+  footer {
+    text-align: center;
+  }
+
+  #dd {
+    height: auto;
+    padding: 1rem ;
+  }
+
+  #bb {
+    top: 0;
+    font-size: 10px;
+    padding: 1rem;
+  }
+
+  #everthing {
+    padding: 1rem;
+  }
+
+  #diag {
+    top: 0;
+  }
+
+  .learn1 {
+    padding: 10px 20px;
+  }
+}
