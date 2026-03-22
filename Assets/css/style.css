@@ -469,7 +469,7 @@ footer {
 
   body, html {
     font-size: 14px;
-    background-attachment: fixed;
+    background-attachment: static;
   }
 
   img {
